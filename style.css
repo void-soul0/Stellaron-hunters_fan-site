@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body{
+    background-image: url(inicio/img/agora-vai-mesmo.png);
+    text-align: center;
+    min-width: none;
+    max-width: none;
+}
+h1{
+    color: rgba(245, 212, 29, 0.767);
+ font-family: 'Great Vibes';
+ text-decoration: underline;
+ font-size: 30pt;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: auto;
+}
+ header > nav > a:hover{
+    text-decoration: underline;
+}
+header{
+    margin-top:none;
+    background-color: black;
+
+}
+menu > a > img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+}
+menu > a > img:hover{
+    border: solid 2px goldenrod;
+}
+.central{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+main{
+    min-width: none;
+    max-width: none;
+    min-height: none;
+    max-height: none;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@font-face {
+    font-family:norican;
+    src: url(fonts/Norican/Norican-Regular.ttf)
+    format(truetype);
+}
+body{
+    background-image:linear-gradient(to bottom, #8f3e6a 85%, #000000);
+    height: 2800px;
+    margin: auto;
+}
+h1{
+    font-family:norican;
+    color: white;
+    text-decoration: underline;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+button{
+    border-radius:10px;
+    background-color:white;
+    border:solid 2px;
+    color: black;
+}
+button:hover{
+    background-color: #BCBAB8;
+}
+main{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+main > img{
+    border-radius: 5px;
+    box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.274);
+}
+main >h1{
+    text-shadow: 5px 1px 5px black;
+    -webkit-text-stroke: #BCBAB8 2px;
+}
+main > p{
+    color: white;
+}
+article{
+    color: whitesmoke;
+    min-width: 400px;
+    max-width: 2050px;
+    align-self:center;
+}
+article > img{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356);
+}
+p{
+    font-family: 'EB Garamond', serif;
+}
+div > img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+div{
+    text-align: left;
+}
+div > ul{
+    font-family: 'EB Garamond';
+    align-items: center;
+}
+mark{
+    background-color: #8f8c3e;
+}
+iframe{
+    border-radius:10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
+}
+abbr{
+    text-decoration: none;
+}
+.site{
+    color: white;
+    font-family: 'EB Garamond';
+}
+.site:hover{
+    text-decoration: underline;
+}
+audio::-webkit-media-controls-panel{
+background-color:whitesmoke;
+}
+audio::-webkit-media-controls-play-button{
+ background-color:#8f3e6a;
+ border-radius: 50%;
+}
+audio::-webkit-media-controls-current-time-display{
+    color:#8f8c3e;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color:#8f8c3e;
+}
+audio::-webkit-media-controls-mute-button{
+    background-color:#8f3e6a;
+    border-radius: 50%;
+}
