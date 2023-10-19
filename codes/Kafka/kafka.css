@@ -6,7 +6,12 @@
 }
 body{
     background-image:linear-gradient(to bottom, #8f3e6a 85%, #000000);
+    min-height:1000PX;
     height: 2800px;
+    max-height: 30000;
+    width: 1000px;
+    min-width:320px;
+    max-width: 1250px;
     margin: auto;
 }
 h1{
