@@ -6,11 +6,9 @@
 body{
     background-image: linear-gradient(to bottom, #27455d, #A93E35);
     min-width: 320px;
-    min-height: 500px;
-    height: 3000px;
-    width: 1000px;
-    max-width: none;
-    max-height: none;
+    max-width:2000px;
+    margin: 0 auto;
+    width: 90%;
     align-content: center;
 }
 h1{
