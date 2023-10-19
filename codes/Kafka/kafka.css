@@ -61,6 +61,7 @@ article > img{
 }
 p{
     font-family: 'EB Garamond', serif;
+    margin: 3px auto;
 }
 div > img{
     width: 400px;
@@ -73,6 +74,9 @@ div{
 div > ul{
     font-family: 'EB Garamond';
     align-items: center;
+}
+div > img{
+    width: 90%;
 }
 mark{
     background-color: #8f8c3e;
