@@ -5,8 +5,12 @@
 }
 body{
     background-image: linear-gradient(to bottom, #27455d, #A93E35);
+    min-width: 320px;
+    min-height: 500px;
     height: 3000px;
     width: 1000px;
+    max-width: none;
+    max-height: none;
     align-content: center;
 }
 h1{
@@ -56,4 +60,8 @@ audio::-webkit-media-controls-time-remaining-display{
 iframe{
     border-radius: 15px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.493);
+    width: 80%;
+    min-width: 320px;
+    max-width: none;
+    margin: 0 auto;
 }

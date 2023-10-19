@@ -127,3 +127,7 @@
     audio::-webkit-media-controls-time-remaining-display{
       color: white;
     }
+    a > img{
+    width: 60%; 
+    margin: 0 auto; 
+    }
