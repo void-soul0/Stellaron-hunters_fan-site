@@ -9,6 +9,7 @@ body{
     min-width: 320px;
     max-width: 1000px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 h1{
     font-family:norican;
@@ -67,6 +68,7 @@ p{
     margin: auto;
     text-align: center;
     width: 80%;
+    overflow-x: hidden;
 }
 div{
     text-align: left;
