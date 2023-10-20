@@ -7,6 +7,7 @@
 body{
     background-image:linear-gradient(to bottom, #8f3e6a 85%, #000000);
     min-width: 320px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 h1{
@@ -29,17 +30,19 @@ button:hover{
 }
 main{
     width: 90%;
-    height: 50%;
     margin: auto;
     align-items: center;
     text-align: center;
     align-content: center;
 }
-main > img{
+img{
     border-radius: 5px;
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+}
+main >img{
     box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.274);
-    width: 90%;
-
 }
 main >h1{
     text-shadow: 5px 1px 5px black;
@@ -54,10 +57,12 @@ article{
     min-width: 400px;
     max-width: 2050px;
     align-self:center;
+    align-content: center;
+    align-items: center;
 }
 p{
     font-family: 'EB Garamond', serif;
-    margin: 3px auto;
+    margin: auto;
     text-align: center;
     width: 90%;
 }
@@ -67,9 +72,7 @@ div{
 }
 div > ul{
     font-family: 'EB Garamond';
-    align-items: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    align-items: center
 }
 div > img{
     width: 90%;
@@ -90,6 +93,10 @@ iframe{
 }
 abbr{
     text-decoration: none;
+}
+li{
+    font-family:'EB Garamond';
+    margin: 3px auto;
 }
 .site{
     color: white;
@@ -118,8 +125,7 @@ audio::-webkit-media-controls-mute-button{
 .centro{
     text-align: center;
 }
-.relacionados{
+.relacionados > img{
     width: 50%;
     height: 50%;
-    text-align: center;
 }
