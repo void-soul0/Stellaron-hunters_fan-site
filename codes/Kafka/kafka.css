@@ -51,13 +51,7 @@ article{
     color: whitesmoke;
     min-width: 400px;
     max-width: 2050px;
-    align-self:center;
-}
-article > img{
-    width: 350px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356);
-    margin: auto;
+    align-self:center
 }
 p{
     font-family: 'EB Garamond', serif;
@@ -85,7 +79,7 @@ mark{
 iframe{
     border-radius:10px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     min-width: 320px;
     max-width: none;
