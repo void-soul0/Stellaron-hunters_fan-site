@@ -37,7 +37,7 @@ main{
 main > img{
     border-radius: 5px;
     box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.274);
-    width
+
 }
 main >h1{
     text-shadow: 5px 1px 5px black;
@@ -62,21 +62,19 @@ p{
     font-family: 'EB Garamond', serif;
     margin: 3px auto;
 }
-div > img{
-    width: 400px;
-    height: 300px;
-    border-radius: 5px;
-}
 div{
     text-align: left;
+    width: 100%;
 }
 div > ul{
     font-family: 'EB Garamond';
     align-items: center;
 }
 div > img{
-    width: 60%;
+    width: 100%;
     margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.384);
 }
 mark{
     background-color: #8f8c3e;
