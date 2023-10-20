@@ -39,7 +39,7 @@ main{
 }
 img{
     border-radius: 5px;
-    width: 80%;
+    width: 60%;
     max-width: 750px;
     margin: auto;
 }
@@ -68,7 +68,6 @@ p{
     margin: auto;
     text-align: center;
     width: 80%;
-    overflow-x: hidden;
 }
 div{
     text-align: left;
@@ -131,7 +130,7 @@ audio::-webkit-media-controls-mute-button{
 .centro{
     text-align: center;
 }
-.relacionados > img{
+.relacionados{
     width: 50%;
     height: 50%;
 }
