@@ -38,6 +38,7 @@ main{
 main > img{
     border-radius: 5px;
     box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.274);
+    width: 90%;
 
 }
 main >h1{
@@ -46,16 +47,19 @@ main >h1{
 }
 main > p{
     color: white;
+    text-align: center;
 }
 article{
     color: whitesmoke;
     min-width: 400px;
     max-width: 2050px;
-    align-self:center
+    align-self:center;
 }
 p{
     font-family: 'EB Garamond', serif;
     margin: 3px auto;
+    text-align: center;
+    width: 90%;
 }
 div{
     text-align: left;
