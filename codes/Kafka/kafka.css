@@ -54,10 +54,11 @@ main > p{
     color: white;
     text-align: center;
     justify-content: center;
+    width: 95%;
 }
 article{
     color: whitesmoke;
-    width:85%;
+    width:95%;
     align-self:center;
     align-content: center;
     align-items: center;
@@ -66,7 +67,7 @@ p{
     font-family: 'EB Garamond', serif;
     margin: auto;
     text-align: center;
-    width: 80%;
+    width: 95%;
 }
 div{
     text-align: left;
@@ -130,6 +131,5 @@ audio::-webkit-media-controls-mute-button{
     text-align: center;
 }
 .relacionados{
-    width: 50%;
-    height: 50%;
+    width: 100%;
 }
