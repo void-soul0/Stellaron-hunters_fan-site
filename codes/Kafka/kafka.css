@@ -98,7 +98,7 @@ li{
     align-self: center;
     font-family:'EB Garamond';
     margin: 3px auto;
-    font-size: 14px;
+    width: 94%;
 }
 .site{
     color: white;
