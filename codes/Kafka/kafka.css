@@ -95,8 +95,10 @@ abbr{
     text-decoration: none;
 }
 li{
+    align-self: center;
     font-family:'EB Garamond';
     margin: 3px auto;
+    font-size: 14px;
 }
 .site{
     color: white;
