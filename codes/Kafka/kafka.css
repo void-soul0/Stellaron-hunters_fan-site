@@ -7,10 +7,9 @@
 body{
     background-image:linear-gradient(to bottom, #8f3e6a 85%, #000000);
     min-width: 320px;
-    max-width: 1000px;
-    margin: 0 auto;
-    overflow-x: hidden;
-    overflow-y: hidden;
+        max-width:2000px;
+        margin: 0 auto;
+        width: 90%;
 }
 h1{
     font-family:norican;
