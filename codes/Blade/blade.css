@@ -11,6 +11,15 @@ body{
     width: 90%;
     align-content: center;
 }
+header > nav{
+    text-align: center;
+}
+article > img{
+    position:relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+}
 h1,h2{
     color:#AA9684;
     font-family: facon;
