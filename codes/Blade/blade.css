@@ -7,15 +7,16 @@ body{
     background-image: linear-gradient(to bottom, #27455d, #A93E35);
     min-width: 320px;
     max-width:2000px;
-    margin: 0 auto;
+    margin: auto;
     width: 90%;
     align-content: center;
 }
-h1{
+h1,h2{
     color:#AA9684;
     font-family: facon;
     text-decoration: underline;
     text-align: center;
+    text-shadow: black 2px 2px 2px;
 }
 a{
     color: black;
@@ -26,7 +27,6 @@ a{
 }
 article{
     align-content: center;
-    text-align: center;
     align-items: center;
 }
 article >img {
@@ -37,6 +37,9 @@ article >img {
 }
 P{
     color:#C2CFDB;
+}
+li{
+    color: #C2CFDB;
 }
 audio::-webkit-media-controls-panel{
     background-color:#C2CFDB;
