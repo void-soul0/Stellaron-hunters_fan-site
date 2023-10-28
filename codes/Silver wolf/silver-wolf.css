@@ -46,7 +46,7 @@
         text-decoration: underline;
         color: blue;
       }
-      img{
+       img{
         border-radius: 5px;
         min-width: 320px;
         max-width: 1200px
@@ -141,7 +141,7 @@
       margin: auto;
       text-align: center;
       width: 90%;
-      height: 50%;
+      height: 90%;
       color: white;
       border: solid 1px;
       border-collapse: collapse;
@@ -160,4 +160,10 @@
       border-radius: 5px;
       padding: 5px;
       width: 90%;
+    }
+    th > tbody{
+      width: 10px;
+    }
+    table > img{
+      width: 10px;
     }
