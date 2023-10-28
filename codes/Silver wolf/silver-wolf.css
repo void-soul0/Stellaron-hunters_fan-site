@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-      h1{
+      main > h1{
         color: #FF00F2;
         font-family:Silkscreen;
         font-size:25px;
@@ -64,7 +64,7 @@
         padding:5px;
         margin: 10px;
       }
-      input{
+      header > input{
         background-color:gray;
         border:solid 2px;
         border-color: azure;
@@ -136,4 +136,28 @@
     }
     section > img{
       width: 10%;
+    }
+    table{
+      margin: auto;
+      text-align: center;
+      width: 90%;
+      height: 50%;
+      color: white;
+      border: solid 1px;
+      border-collapse: collapse;
+      font-family: Silkscreen;
+      margin-bottom: 10px;
+    }
+    th{
+      border: solid 1px;
+    }
+    td{
+      border: solid 1px;
+    }
+    .habilidades > h2{
+      font-family: Silkscreen;
+      border: solid 1px;
+      border-radius: 5px;
+      padding: 5px;
+      width: 90%;
     }
