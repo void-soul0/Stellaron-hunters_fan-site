@@ -167,3 +167,6 @@
     table > img{
       width: 10px;
     }
+    section.tabela> h2 {
+      font-family: silkscreen;
+    }
