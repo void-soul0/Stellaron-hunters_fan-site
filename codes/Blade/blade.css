@@ -96,3 +96,7 @@ mark{
     background-color: #f4bd57;
     border-radius: 1.4px;
 }
+table{
+    color: white;
+    border: solid 1px;
+}
